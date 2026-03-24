@@ -2,12 +2,12 @@
 
 int main() {
 
-    int x, y;
+    int x, y, product;
     scanf("%i", &x);
     scanf("%i", &y);
- 
-    printf("The numbers typed were: %i and %i\n", x, y);
-    
+    product = x * y;
 
+    printf("%i\n", product);
+    
     return 0;
 }
