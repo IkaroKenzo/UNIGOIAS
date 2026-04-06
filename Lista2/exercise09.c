@@ -5,7 +5,7 @@ int pg(int a1, int r, int n){
 	
 	return a1 * pow(r, n - 1);
 }
-int main(){
+int main() {
 	
 	int a1, r, n, result;
 	
