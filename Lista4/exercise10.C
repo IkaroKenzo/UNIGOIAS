@@ -5,13 +5,13 @@
 
 int main(){
 	
-	int i, sum, division;
+	int i, sum, Division;
 	for(i = 0; i <=100; i++){
 		printf("%i\n", i);
 		sum = sum + i;
 	}
-	division = sum / 2;
-	printf("Mean = %i", division);
+	Division = sum / 2;
+	printf("Mean = %i", Division);
 
 	return 0;
 }
