@@ -6,21 +6,26 @@
 
 int main(){
 	
-	int NUM, NUM1, i;
-	for(i = 0; i <= 5; i++){   //Vai se repetir apenas 5 vezes.
-		printf("Enter a number\n");
-		scanf("%i", &NUM);
-		printf("Enter another number\n");
-		scanf("%i", &NUM1);
-		if(NUM > NUM1){
-			printf("%i is greater than %i\n", NUM, NUM1);
+	int number, smaller, greater, i, NUM;
+	
+	scanf("%i", &NUM);
+	
+	scanf("%i", &number);
+	smaller = number;
+	greater = number;
+	
+	for(i = 2; i <= NUM; i++){
+		scanf("%i", &number);
+		if(number > greater){
+			greater = number;
 		}
-		else if(NUM < NUM1){
-			printf("%i is greater than %i\n", NUM1, NUM);
+		if(number < smaller){
+			smaller = number;
 		}
-		else{
-			printf("EQUALS\n");
-		}
+		
 	}
+	printf("Greater: %i\n", greater);
+	printf("Smaller: %i\n", smaller);
+	
 	return 0;
 }
