@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 //Criar um algoritmo que imprima todos os números de 1 até 100, inclusive, a media de
-//todos eles
+//todos eles.
 
 int main(){
 	
