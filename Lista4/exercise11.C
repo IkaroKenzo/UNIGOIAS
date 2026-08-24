@@ -2,7 +2,7 @@
 
 // Criar um algoritmo que leia um número, e depois leia NUM números inteiros
 //e imprima o maior e o menor deles. Suponha que todos os números lidos serão
-//positivos.
+//positivos
 
 int main(){
 	
