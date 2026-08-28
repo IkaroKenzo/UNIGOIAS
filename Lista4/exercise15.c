@@ -1,9 +1,9 @@
 #include <stdio.h>
 
 int main() {
-    int num1, num2;
-    int i;
-    int prime1 = 1, prime2 = 1;
+    int num1, num2, i, prime1, prime2;
+    prime1 = 1;
+    prime2 = 1;
 
     printf("Enter the first positive integer: ");
     scanf("%i", &num1);
