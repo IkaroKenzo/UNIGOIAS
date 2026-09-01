@@ -1,4 +1,5 @@
 #include <stdio.h>
+//Escreva um algoritmo para calcular o fatorial do número N, cujo valor é obtido através do usuário pelo teclado.
 
 int main(){
 	
