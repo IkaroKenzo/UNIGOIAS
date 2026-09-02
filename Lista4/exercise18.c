@@ -11,10 +11,10 @@ int main() {
     second = 1;
 
     printf("Enter the number of terms: ");
-    scanf("%d", &n);
+    scanf("%i", &n);
 
     for (int i = 1; i <= n; i++) {
-        printf("%d ", first);
+        printf("%i ", first);
 
         next = first + second;
         first = second;
