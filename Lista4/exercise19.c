@@ -1,5 +1,12 @@
 #include <stdio.h>
 
+// A série de RICCI difere da série de FIBONACCI porque os dois primeiros termos são
+//fornecidos pelo usuário. Os demais termos são gerados da mesma forma que a série de
+//FIBONACCI. Criar um algoritmo que imprima os N primeiros termos da série de
+//RICCI e a soma dos termos impressos, sabendo-se que para existir esta série serão
+//necessários pelo menos três termos.
+
+
 int main() {
     int n, first, second, next, sum;
 
