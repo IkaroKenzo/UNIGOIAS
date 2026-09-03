@@ -1,5 +1,5 @@
 #include <stdio.h>
-
+//Implemente um algoritmo para gerar o número H. O número N é lido do teclado.
 int main() {
     int n;
     float h = 0.0;
